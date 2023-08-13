@@ -1,0 +1,104 @@
+:root{
+    --main-color:#CCCCCC
+    --secondy-color: #D62E33
+}
+.bg-main{
+background-color: #CCC !important;
+}
+.bg-second{
+    background-color: rgba(214,46,51,0.6)  !important;
+}
+body{
+    position: relative;
+}
+header{
+    background-image:  linear-gradient(rgba(214,46,51,0.6) , rgba(214,46,51,0.6) ) ,url(../images/events-heavenly-header.jpg) ;
+    background-position: center;
+    background-size: cover;
+    height: 37.5rem;
+}
+#open{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+#nav{
+    position: fixed;
+    left:0;
+    top: 0;
+    z-index: 999999999;
+    height: 100vh;
+    width: 15%;
+    display: flex;
+}
+.side-bar{
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding-inline: 10%;
+}
+.close{
+    cursor: pointer;
+    color: white;
+    display: flex;
+    justify-content: end;
+    margin-top: 10%;
+    background-color: transparent;
+    border: none;
+}
+.close:hover{
+    color:rgb(214,46,51);
+}
+.side-bar a{
+    text-decoration: none;
+    color: white;
+    padding: 10% 0;
+    font-size: 20px
+}
+.side-bar a:hover{
+    color: rgb(214,46,51);
+}
+.open{
+    display: inline-flex;
+    justify-content: end;
+    align-items: center;
+    width: 30%;
+}
+.cards p{
+    display: none;
+}
+.cards h2{
+    cursor: pointer;
+}
+#counter{
+    height: 9rem;
+    background-image:  linear-gradient(rgba(214,46,51,0.6) , rgba(214,46,51,0.6) ) ,url(../images/invitation-2508607__340.jpg) ;
+    background-position: center;
+    background-size: cover;
+}
+#counter h2{
+    border: 1px solid white;
+    padding: 20px 50px;
+    margin-inline: 100px;
+}
+
+#contact p{
+    color: #888888;
+}
+#contact a{
+    color: #888888;
+    border: #888888 1px solid;
+    width: 20px;
+    height: 20px;
+    padding: 8px;
+    margin-inline: 5px;
+}
+#contact a:hover{
+    color: white;
+    background-color: rgb(214,46,51) ;
+    border: none; 
+}
+#contact textarea{
+    min-height: 100px;
+    max-height: 250px;
+}

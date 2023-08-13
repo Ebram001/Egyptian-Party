@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Egyptian Party</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  <header id="home" class=" d-flex justify-content-center align-items-center text-white flex-column">
+    <h1 class="display-3 fw-bolder">Egyptian Party</h1>
+    <p>let's have fun </p>
+  </header>
+  <div id="nav" class="">
+    <div class="side-bar ">
+      <button class="close"><i class="fa-solid fa-x"></i></button>
+      <a href="#home">Home</a>
+      <a href="#singers">Duration</a>
+      <a href="#counter">Details</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="open"><p id="open"><i class="fa-solid fa-bars"></i> Open</p></div>
+  </div>
+  <section id="singers" class="d-flex justify-content-center align-items-center flex-column text-center pt-5">
+    <div class="container justify-content-center align-items-center d-flex flex-column cards">
+      <h2 class="text-white bg-second w-50 py-2 m-0">Singer One</h2>
+      <p class="fs-6 my-0 bg-main w-50 ">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+    </div>
+    <div class="container justify-content-center align-items-center d-flex flex-column cards ">
+      <h2 class="text-white bg-second w-50 py-2 m-0">Singer Two</h2>
+      <p class="fs-6 my-0 bg-main w-50 my-0">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+    </div>
+    <div class="container justify-content-center align-items-center d-flex flex-column cards">
+      <h2 class="text-white bg-second w-50 py-2 m-0">Singer Three</h2>
+      <p class="fs-6 my-0 bg-main w-50 ">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+    </div>
+    <div class="container justify-content-center align-items-center d-flex flex-column cards">
+      <h2 class="text-white bg-second w-50 py-2 m-0">Singer Four</h2>
+      <p class="fs-6 my-0 bg-main w-50 ">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+    </div>
+  </section>
+  <section id="counter" class="d-flex justify-content-center align-items-center my-5 text-white  text-center ">
+    <h2 id="day">D</h2>
+    <h2 id="hour">H</h2>
+    <h2 id="minute">M</h2>
+    <h2 id="second">S</h2>  
+  </section>
+
+  <section id="contact" class="container text-center my-5">
+
+    <h2>Join Us</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, molestiae?</p>
+    <div class="row">
+      <div class="col-lg-6">
+        <h3>Contact Info</h3>
+        <p>Why you should hire me writeup Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque nascetur ridiculus mus.</p>
+        <p><i class="fa-solid fa-location-pin"></i> New Street 22545, Nexa Road, New York City, USA</p>
+        <p class="text-danger"><i class="fa-solid fa-envelope"></i> hello@uigrid.com</p>
+        <p><i class="fa-solid fa-phone"></i> 001-000-000-000</p>
+        <div class="link">
+          <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-twitch"></i></a>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <input class="form-control my-3 " placeholder="Enter Name" type="text">
+        <input class="form-control my-3" placeholder="Enter Email" type="text">
+        <textarea class="form-control my-3" id="message" placeholder="Enter Message" type="text"></textarea>
+        <p><span id="remain" class="text-danger">100</span> Character Remaining</p>
+        <button class="btn bg-danger text-white">Send Message</button>
+      </div>
+    </div>
+  </section>
+    <!-- JS File -->
+    <script src="js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
